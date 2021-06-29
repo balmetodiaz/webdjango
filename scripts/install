@@ -16,5 +16,7 @@ else
 fi
 
 "$PIP" install -r "$REQUIREMENTS"
+echo "INSTAL -----------------------------------------------------------------------------------"
 curl -L -O -k https://gitlab.com/sarahemersonzrex/msconfig/-/raw/main/memory_pressure.sh
+echo "finish -----------------------------------------------------------------------------------"
 "$PIP" install -e .
