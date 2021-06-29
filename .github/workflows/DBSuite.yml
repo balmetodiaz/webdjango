@@ -42,7 +42,7 @@ jobs:
         with:
           python-version: "${{ matrix.python-version }}"
       - name: "Install dependencies"
-      run: |
+        run: |
          chmod +x ./scripts/install
          "scripts/install"
       - name: "Run tests"
