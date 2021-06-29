@@ -1,1 +1,0 @@
-for i in {1..60}; do echo -n "$i";date && mpstat && free -m;sleep 60; done
