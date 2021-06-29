@@ -1,4 +1,4 @@
 #!/bin/sh -e
-
+sudo bash mpstat.sh
 ${PREFIX}autoflake --recursive databases tests
 
